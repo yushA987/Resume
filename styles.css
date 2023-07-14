@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    text-align:center;
+    position:relative;
+    font-family: 'Merriweather' , serif;
+}
+h1{
+    font-size: 90px;
+    margin:0;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat' , sans-serif;
+}
+.topContainer{
+    background-color:#E4F9F5;
+    padding:50px;
+    /* position:absolute; */
+}
+.midContainer{
+   position:relative;
+}
+.bottomContainer{
+     
+}
+.pro{
+    text-decoration:underline; 
+    /* span is inline display, so as <img> and <a> */
+    /* <p> <h1,2,3,4> are all blocl element */
+    /* block element acquired whole line while inline element acquires only required space. */
+    /* inline elements cannot change their width but block element can */
+    /* an inline element can be converted to block using display. */
+    /* to use an inline element whose width can be changed, use display:inline-block */
+    /* <img> element are inline-block; */
+}
+.top-cloud{
+    position:absolute;
+    right:400px;
+    top:1px;
+}
+.bottom-1cloud{
+    position:absolute;
+    left:250px;
+}
+.bottom-2cloud{
+    position:absolute;
+    top:300px;
+}
+.webdesigning{
+    width:50px;
+}
+.time_management{
+    width:50px;
+}
+/* .wallpaper{
+    border-radius: 80px;
+} */
